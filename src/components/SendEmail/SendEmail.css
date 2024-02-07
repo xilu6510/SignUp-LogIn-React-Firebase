@@ -1,0 +1,47 @@
+.send-page {
+  width: 540px;
+  height: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px #15223214;
+}
+
+.send-page img {
+  width: 102px;
+  height: 100px;
+}
+
+.send-page h1 {
+  margin-top: 60px;
+}
+
+.send-page .des-top {
+  margin-top: 8px;
+}
+
+.send-page hr {
+  margin-top: 48px;
+}
+
+.send-page .des-bottom {
+  margin-top: 24px;
+}
+
+.send-page .other-logins {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .send-page {
+    width: 350px;
+  }
+
+  .send-page .des-top {
+    padding: 0 50px;
+    text-align: center;
+  }
+}

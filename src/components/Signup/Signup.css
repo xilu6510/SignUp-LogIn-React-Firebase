@@ -1,0 +1,156 @@
+.main-container {
+  width: 540px;
+  height: 721px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 0px #15223214;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  line-height: 44px;
+}
+
+.flex-text {
+  display: flex;
+}
+
+p {
+  color: #5a607f;
+}
+
+.des-top {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.flex-text p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.redirect-links {
+  font-size: 16px;
+  color: #1e5eff;
+  text-decoration: none;
+}
+
+.flex-text .redirect-links {
+  line-height: 24px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-block {
+  margin-top: 24px;
+}
+
+form label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #5a607f;
+}
+
+.block-style {
+  width: 420px;
+  height: 48px;
+  border: solid 1px #d9e1ec;
+  border-radius: 5px;
+  margin-top: 4px;
+  padding: 0;
+}
+
+form input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #a1a7c4;
+  padding-left: 16px;
+}
+
+.submit {
+  width: 420px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  background: #1e5eff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.block-text {
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.des-bottom {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.block-text .redirect-links {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+hr {
+  width: 420px;
+  height: 1px;
+  background-color: #d7dbec;
+  color: #d7dbec;
+  border: none;
+  margin-top: 24px;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.other-logins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 350px;
+    height: 700px;
+  }
+
+  .block-style {
+    width: 300px;
+  }
+
+  hr {
+    width: 300px;
+  }
+
+  .submit {
+    width: 300px;
+  }
+}
